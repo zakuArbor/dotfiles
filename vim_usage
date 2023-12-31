@@ -1,0 +1,41 @@
+SpellCheck
+---
+`set spell spelllang=en_ca`
+`set nospell`
+
+to move forward: `]s`
+to move backwords: `[s`
+suggest spelling: `z=` 
+to add the word: `zg` 
+
+cscope
+---
+cscope find d <definition>
+cscope find c <function callee>
+crtl+o to go back
+
+autocomplete
+------------
+crtl+n
+
+:NerdTree #view directory
+
+---
+Install Plugins
+
+On `.vimrc` add the plugin:
+```
+Plug '~/my-prototype-plugin'
+```
+
+Install the plugin under `~/.vim/plugged`
+
+Source `.vimrc`: `. ~/.vimrc`
+
+On vim: `\:PlugInstall` to install
+
+----
+
+# Vimtex
+
+`\ll` to compile document
